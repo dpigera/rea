@@ -18,6 +18,7 @@ export default defineConfig({
         text: "Getting started",
         items: [
           { text: "Installation and setup", link: "/installation" },
+          { text: "Cursor cloud agents", link: "/cursor-cloud-agent" },
           { text: "Client configuration", link: "/client-configuration" },
           { text: "CLI and Evidence", link: "/cli" },
           { text: "Agent prompts", link: "/mcp-prompts" },
