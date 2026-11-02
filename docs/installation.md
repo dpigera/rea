@@ -663,6 +663,14 @@ hosted connector; see [its configuration](client-configuration.md#other-client-s
 `freebuff` requires `rea-agents@6.8.0` or later. Older releases reject
 `rea setup --client freebuff` as an unsupported client.
 
+### Cursor cloud agents
+
+A cloud agent for this repository is described in
+[Cursor cloud agents](cursor-cloud-agent.md). That environment installs
+Node.js, procps, a JDK, and Ghidra, builds REA from the checkout, and registers
+the MCP server in `.cursor/mcp.json` with Ghidra selected. It does not install
+Hopper.
+
 See [client configuration and troubleshooting](client-configuration.md) for
 configuration paths, profiles, trust policies, and schema-limit workarounds.
 
